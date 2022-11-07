@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Font Awesome 4.7.0 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Catalogo de Productos</title>
+</head>
+
+<body>
+
+    <div class="container-fluid bg-success bg-opacity-25 pb-4">
+
+        <!-- Barra de navegación -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success rounded">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/recetas.html">Recetas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/"><i
+                                    class="fa fa-facebook-square"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://wa.me/"><i class="fa fa-whatsapp"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Nombre de la empresa -->
+
+        <!-- Título -->
+        <div class="col-12">
+            <h2 class="text-center bg-success bg-opacity-50 m-2 p-2 text-white rounded">📃 <span
+                    class="fst-italic">Nombre de la Empresa</span> 💼</h2>
+        </div>
+
+        <!-- Carrousel -->
+
+        <div class="col-12 col-md-7 mx-auto p-2">
+            <div id="carouselGaleria" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators" id="indicadores">
+                </div>
+                <div class="carousel-inner" id="galeria">
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaleria"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselGaleria"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Nosotros -->
+        <div class="col-12 col-md-8 d-flex justify-content-around mx-auto border border-2 p-2 rounded m-2 flex-wrap">
+            <div class="col-12 col-md-4">
+                <h3 class="fst-italic">Nosotros</h3>
+                <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique iure
+                    quis deserunt, maiores
+                    dolorum nulla et qui error a, amet distinctio soluta. Dolor officiis beatae, praesentium repellendus
+                    dolorem qui iusto!</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <img class="img-fluid" src="img/organico.jpg" alt="Nosotros">
+            </div>
+        </div>
+
+        <!-- Productos -->
+        <div class="col-12 col-md-8 d-flex justify-content-around mx-auto border border-2 p-2 rounded m-2 flex-wrap">
+            <div class="col-12 col-md-6">
+                <img class="img-fluid" src="img/producto.jpg" alt="Productos">
+            </div>
+            <div class="col-12 col-md-4">
+                <h3 class="fst-italic">Nuestros Productos</h3>
+                <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique iure
+                    quis
+                    deserunt, maiores
+                    dolorum nulla et qui error a, amet distinctio soluta. Dolor officiis beatae, praesentium repellendus
+                    dolorem qui iusto!</p>
+
+                <p class="text-end"><a class="btn btn-success" href="pages/productos.html">Conocer Más</a></p>
+            </div>
+
+        </div>
+
+        <!-- Ubicación -->
+
+        <div
+            class="col-12 col-md-8 d-flex justify-content-center mx-auto border border-2 p-2 rounded m-2 flex-wrap text-center">
+            <div class="col-12 col-md-6">
+                <h3 class="fst-italic">Ubicación</h3>
+                <p>Centro Comercial Plaza Mayor</p>
+                <p>Piso X</p>
+                <p>Local Y</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15707.979849848432!2d-64.6828032!3d10.1810638!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7c14c9cccf336289!2sCentro%20Comercial%20Plaza%20Mayor!5e0!3m2!1ses-419!2sve!4v1667852847113!5m2!1ses-419!2sve"
+                    width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- Contacto -->
+
+        <div class="col-12 text-center">
+            <p class="m-3"><b>Síguenos en nuestras redes sociales:</b></p>
+
+            <p><a class="btn btn-secondary" href="https://www.instagram.com/">Instagram <i
+                        class="fa fa-instagram"></i></a></p>
+
+            <p><a class="btn btn-primary" href="https://www.facebook.com/">Facebook <i
+                        class="fa fa-facebook-square"></i></a></p>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="sticky-bottom col-12 text-end mb-2">
+            <span class="bg-light p-3 border border-2 rounded fw-bold">¿Necesitas ayuda? <a href="https://wa.me/"
+                    class="text-success"><i class="fa fa-whatsapp" style="font-size: 30px;"></i></a></span>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

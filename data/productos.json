@@ -1,0 +1,51 @@
+[
+    {
+        "nombre": "Pera",
+        "descripcion": "Descripción",
+        "precio": 1,
+        "moneda": "$",
+        "imagen": "../img/pera.jpg"
+    },
+    {
+        "nombre": "Manzana",
+        "descripcion": "Descripción",
+        "precio": 0.8,
+        "moneda": "$",
+        "imagen": "../img/manzana.jpg"
+    },
+    {
+        "nombre": "Limón",
+        "descripcion": "Descripción",
+        "precio": 0.8,
+        "moneda": "$",
+        "imagen": "../img/limon.jpg"
+    },
+    {
+        "nombre": "Naranja",
+        "descripcion": "Descripción",
+        "precio": 0.8,
+        "moneda": "$",
+        "imagen": "../img/naranja.jpg"
+    },
+    {
+        "nombre": "Papaya",
+        "descripcion": "Descripción",
+        "precio": 0.8,
+        "moneda": "$",
+        "imagen": "../img/papaya.jpg"
+    },
+    {
+        "nombre": "Piña",
+        "descripcion": "Descripción",
+        "precio": 0.8,
+        "moneda": "$",
+        "imagen": "../img/pina.jpg"
+    },
+    {
+        "nombre": "Arándanos",
+        "descripcion": "Descripción",
+        "precio": 0.8,
+        "moneda": "$",
+        "imagen": "../img/arandanos.jpg"
+    }
+]
