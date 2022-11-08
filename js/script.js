@@ -53,7 +53,7 @@ function dibujarDatos() {
                 galeria.innerHTML += `
                     <div class="carousel-item ${index === 0 && 'active'} ">
                         <img src="${imagen}" class="d-block w-100 rounded" alt="Foto de ${nombre}" style="height: 300px;">
-                        <div class="carousel-caption d-none d-md-block bg-light bg-opacity-25 rounded text-dark">
+                        <div class="carousel-caption bg-light bg-opacity-25 rounded text-dark">
                             <h5>${nombre}</h5>
                             <p>${descripcion}</p>
                         </div>
